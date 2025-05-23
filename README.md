@@ -16,7 +16,7 @@ This module provides a custom implementation of Enums in Roblox using Luau. Unli
 ```lua
 local Enum = require(path.to.CustomEnum)
 
-local WeaponType = Enum("WeaponType", {
+local WeaponType = Enum.new("WeaponType", {
     Sword = 1,
     Bow = 2,
     Staff = 3,
